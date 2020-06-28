@@ -18,13 +18,14 @@ def summon_captain_planet(planeteer_calls)
 
 end
 calls = ["earth", "wind", "fire", "water", "heart"]
-p summon_captain_planet(calls)
+#p summon_captain_planet(calls)
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
   planeteer_calls.collect{|x|x.count>4}
 end
+p long_planeteer_calls(calls)
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
