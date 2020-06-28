@@ -14,6 +14,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   planeteer_calls.collect { |x| x.capitalize+"!" }
 end
+end
 calls = ["earth", "wind", "fire", "water", "heart"]
 p summon_captain_planet(calls)
 
