@@ -18,7 +18,7 @@ def summon_captain_planet(planeteer_calls)
 
 end
 calls = ["earth", "wind", "fire", "water", "heart"]
-calls1 = ["earth", "wind", "fire", "water", "heart"]
+calls1 = ["wind", "fire"]
 #p summon_captain_planet(calls)
 
 def long_planeteer_calls(planeteer_calls)
