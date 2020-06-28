@@ -27,7 +27,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any?{|str|str.size>5}
 
 end
-p long_planeteer_calls(calls1)
+p long_planeteer_calls(calls)
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
