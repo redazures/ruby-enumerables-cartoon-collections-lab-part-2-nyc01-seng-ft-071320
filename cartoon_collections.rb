@@ -6,7 +6,7 @@ def square_array(array)
   end
 end
 
-x=[2.3,4]
+y=[2.3,4]
 p square_array(array)
 
 def summon_captain_planet(planeteer_calls)
